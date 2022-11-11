@@ -1,0 +1,593 @@
+/* ///////////////////GENERAL TODAS PARTES//////////////////  */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Sans+JP:wght@300&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+h2 {
+    font-size: 35px;
+    color: #3657d4;
+}
+
+h3 {
+
+    color: #34517e;
+    font-size: 136%;
+}
+
+li {
+    font-size: 20px;
+    padding: 0% 20% 0% 0;
+
+}
+
+p {
+    font-size: 133%;
+}
+
+h1 {
+    color: #1f3f73;
+    font-size: 349%;
+}
+
+button {
+    color: #fff;
+    background-color: rgba(52, 85, 210, 255);
+    border-color: transparent;
+    padding: 17px 43px 17px 43px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+
+
+
+
+/* ////////////////parte superior/////////////////// */
+
+
+
+
+.primer_div {
+    display: flex;
+
+    align-items: center;
+    margin: 0 auto;
+    justify-content: space-between;
+    background: linear-gradient(to right, white 46%, white 47%, rgba(230, 243, 253, 255) 48%, rgba(230, 243, 253, 255) 8%);
+    padding: 30px 100px;
+
+}
+
+.primer_div .button_1 button {
+
+    color: #fff;
+    background-color: rgba(52, 85, 210, 255);
+    border-color: transparent;
+    padding: 13px 21px 13px 21px;
+    font-size: 20px;
+    border-radius: 5px;
+
+}
+
+.primer_div .button_1 button:hover {
+    color: #2849c6;
+    background-color: transparent;
+
+    box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1),
+        0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+
+.titulo_vaccionation {
+    padding: 0px 0px 15px 0px;
+}
+
+.lista_2 {
+    display: flex;
+    align-items: center;
+}
+
+.lista_2 li a {
+    margin-left: 15px;
+    color: #6d7a92;
+    padding: 5px;
+    border-radius: 5px;
+    transition: .3s;
+    font-size: 22px;
+
+}
+.lista_2 li{
+    font-size: 0%;
+}
+
+
+
+
+/* ////////////////segunda parte/////////////////// */
+
+#segunda_parte {
+    display: flex;
+    position: relative;
+
+}
+
+.titulo_fight {
+    display: flex;
+    align-items: flex-start;
+    margin: 0px 0px 0px 52px;
+    width: 102%;
+    flex-direction: column;
+}
+
+.titulo_fight .titulo_1 {
+    padding: 10% 21% 0% 80px;
+}
+
+.titulo_fight .titulo_1 p {
+    font-size: 133%;
+
+}
+
+.titulo_fight .titulo_1 h1 {
+    color: #1f3f73;
+    font-size: 456%;
+    padding: 0% 0% 7% 0%;
+
+}
+
+.primera_imagen img {
+    width: 100%;
+
+    border-radius: 2%;
+    border: 5px solid rgba(243, 242, 244, 255);
+    margin: 0% 0% 0% -7%;
+}
+
+.titulo_fight .selected_best {
+    padding: 6% 14% 8% 15%;
+    display: flex;
+    align-items: center;
+}
+
+.titulo_fight .selected_best .icon {
+    padding: 10px;
+    background: rgba(255, 249, 222, 255);
+}
+
+.titulo_fight .selected_best .icon a i {
+    color: #fed013;
+}
+
+.titulo_fight .selected_best li {
+    padding: 10px;
+}
+
+.primera_parte_abajo {
+    display: flex;
+    margin: 0% 0% 0% 17%;
+    position: relative;
+    flex-direction: column;
+}
+
+.primera_parte_abajo .absolute {
+
+    display: flex;
+    position: absolute;
+    top: 54px;
+    right: -668px;
+    height: 112px;
+    width: 303%;
+    background: rgba(255, 255, 255, 0.87);
+    padding: 11%;
+    justify-content: space-between;
+    align-items: center;
+    border: 3px solid rgba(251, 250, 254, 255);
+    border-radius: 1%;
+    box-shadow: 0 46em 8em rgb(0 0 0 / 10%), 0 0 0 2px rgb(255 255 255), 0.3em 0.3em 1em rgb(0 0 0 / 14%);
+}
+
+.titulo_fight .primera_parte_abajo .Schedule {
+    display: flex;
+    align-items: center;
+}
+
+.titulo_fight .primera_parte_abajo .Schedule .icon {
+    background: rgba(232, 241, 252, 255);
+    padding: 10px;
+    color: #2f4fcd;
+    box-shadow: inset 0 0em 3em rgb(0 0 0 / 0%),
+        0.1em 0.1em 1em rgb(0 0 0 / 17%);
+}
+
+.titulo_fight .primera_parte_abajo .absolute .icon {
+    background: rgba(232, 241, 252, 255);
+    padding: 10px;
+    color:
+        #2f4fcd;
+}
+
+.titulo_fight .primera_parte_abajo .absolute .absolute_2 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.titulo_fight .primera_parte_abajo .absolute .absolute_2 .absolute_3 {
+    display: flex;
+    align-items: center;
+
+}
+
+.titulo_fight .primera_parte_abajo .absolute .botton_2 button {
+    color: #fff;
+    background-color: rgba(52, 85, 210, 255);
+    border-color: transparent;
+    padding: 17px 43px 17px 43px;
+    font-size: 20px;
+    border-radius: 5px;
+
+}
+
+.titulo_fight .primera_parte_abajo .absolute .botton_2 button:hover {
+    color: #2849c6;
+    background-color: transparent;
+
+    box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1),
+        0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+
+/* ////////////////imagen_2/////////////////// */
+
+body .imagen_2 img {
+    padding: 2% 6% 1% 6%;
+    width: 100%;
+}
+
+
+/* ////////////////tercera parte/////////////////// */
+
+#tercera_parte {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.titulo_3 {
+    margin: 0% 15% 0% 8%;
+    padding: 1% 45% 6% 2%;
+}
+
+.titulo_3 h1 {
+    padding: 4% 0% 7% 0%;
+    color: #1f3e72;
+    font-size: 304%;
+}
+
+.titulo_3 p {
+    padding: 0% 6% 0% 0%;
+}
+
+.cajas_4 {
+    display: flex;
+    justify-content: space-around;
+    margin: 0% 6%;
+}
+
+.cajas_4 .caja {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border: solid rgba(251, 250, 254, 255);
+    border-radius: 6%;
+    margin: 0%;
+    height: 400px;
+    width: 310px;
+    padding: 2% 2%;
+
+}
+
+.cajas_4 .caja:hover {
+    border: 1px solid rgba(233, 237, 255, 255);
+    box-shadow: 0 2em 8em rgb(0 0 0 / 10%), 0 0 0 2px rgb(255 255 255), 0.3em 0.3em 1em rgb(0 0 0 / 14%);
+}
+
+
+.cajas_4 .caja .icon {
+    background: rgba(232, 241, 252, 255);
+    padding: 10px;
+    color: #2f4fcd;
+    border-radius: 20%;
+    font-size: 166%;
+    border: 1px solid rgba(253, 255, 254, 255);
+    border: 1px solid rgba(233, 237, 255, 255);
+}
+
+.cajas_4 .caja .icon:hover {
+    border: 1px solid rgba(233, 237, 255, 255);
+    box-shadow: 0 -3em 3em rgb(0 0 0 / 10%), 0 0 0 2px rgb(255 255 255), 0.3em 0.3em 1em rgb(0 0 0 / 17%);
+}
+
+.cajas_4 .caja h3 {
+    padding: 7% 21% 7% 0%;
+    color: #34517e;
+    font-size: 160%;
+}
+
+
+
+.caja_4 .caja p {
+    padding: 1% 1% 1% 1%;
+}
+
+
+
+/* ////////////////////////////////////////////////////
+////////////////   CUARTA_PARTE //  ////////////
+///////////////// ///////////////*/
+
+
+#cuarta_parte {
+    display: flex;
+    margin: 12% 0% 12% 0%;
+}
+
+.img_4 {
+    width: 100%;
+    margin: 5% 2% 0% 2%;
+}
+
+.img_4 img {
+    width: 100%;
+    border-radius: 2%;
+    border: 5px solid rgba(243, 242, 244, 255);
+}
+
+.caja_5 {
+
+    display: flex;
+    font-size: 15px;
+    flex-wrap: nowrap;
+    flex-direction: column;
+
+
+
+}
+
+.caja_5 .cajas_largas {
+    padding: 2%;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.caja_5 .titulo_tres {
+    padding: 0% 0% 0% 5%;
+}
+
+.caja_5 .titulo_tres h1 {
+    font-size: 304%;
+}
+
+.caja_5 .titulo_tres p {
+    padding: 6% 34% 9% 0%;
+}
+
+.caja_5 .cajas_larga {
+
+
+    margin: 0% 30% 0% 6%;
+}
+
+.caja_5 .cajas_larga .caja_larga {
+    border: 3px solid rgba(251, 250, 254, 255);
+    display: flex;
+    padding: 3%;
+    justify-content: space-between;
+    margin: 7% 0% 0% 0%;
+
+}
+
+.caja_5 .cajas_larga .caja_grande {
+    border: 3px solid rgba(251, 250, 254, 255);
+    display: flex;
+    padding: 3% 3% 3% 3%;
+    justify-content: space-between;
+    margin: 7% 0% 0% 0%;
+
+}
+
+.caja_5 .cajas_larga .caja_grande .icon {
+    background: rgba(232, 241, 252, 255);
+    padding: 10px;
+    color: #2f4fcd;
+    border-radius: 20%;
+    font-size: 140%;
+    border: 1px solid rgba(253, 255, 254, 255);
+}
+
+.caja_5 .cajas_larga .caja_grande .icon2 {
+    background: rgba(232, 241, 252, 255);
+    padding: 10px;
+    color: #2f4fcd;
+    border-radius: 20%;
+    font-size: 140%;
+    border: 1px solid rgba(253, 255, 254, 255);
+}
+
+
+.caja_5 .cajas_larga .caja_larga .icon {
+    background: rgba(232, 241, 252, 255);
+    padding: 10px;
+    color: #2f4fcd;
+    border-radius: 20%;
+    font-size: 140%;
+    border: 1px solid rgba(253, 255, 254, 255);
+    margin: 0% 0% 0%;
+}
+
+
+.caja_5 .cajas_larga .caja_larga .icon2 {
+    background: rgba(232, 241, 252, 255);
+    padding: 10px;
+    color: #2f4fcd;
+    border-radius: 20%;
+    font-size: 140%;
+    border: 1px solid rgba(253, 255, 254, 255);
+}
+
+.caja_5 .cajas_larga .e1 {
+    display: flex;
+    align-items: center;
+}
+
+
+
+/* ////////////////////////////////////////////////////
+////////////////   CUARTA_PARTE //  ////////////
+///////////////// ///////////////*/
+
+
+#quinta_parte {
+    display: flex;
+    margin: 0% 0% 4% 0%;
+
+}
+
+.titulo_quinto {
+    padding: 0% 25% 0% 15%;
+}
+
+.img_5 {
+    width: 100%;
+}
+
+.img_5 img {
+    width: 100%;
+    border-radius: 2%;
+    border: 5px solid rgba(241, 249, 249, 255);
+}
+
+
+.quinta_parte .cajas {
+    display: grid;
+    grid-template-columns: repeat(2, 268px);
+    padding: 105px;
+    grid-gap: 50px;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+.quinta_parte .cajas .caja_2 {
+    border: 3px solid rgba(251, 250, 254, 255);
+    display: flex;
+    margin: 0% 0% 0% 0%;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 5%;
+}
+
+@media (.quinta_parte .cajas .caja_2:hover) {}
+
+
+.quinta_parte .cajas .caja_2 .caja_3 {
+    display: flex;
+    align-items: center;
+
+    margin-top: 5%;
+
+}
+
+
+
+.quinta_parte .cajas .caja_2 .caja_3 .caja_5 p {
+    font-size: 100%;
+
+
+}
+
+.quinta_parte .cajas .caja_2 .caja_3 .texto {
+    align-items: center;
+    align-items: flex-start
+}
+
+.quinta_parte .cajas .caja_2 button {
+    margin: 10%;
+    color: #3856d1;
+    background-color: rgba(240, 244, 255, 255);
+
+}
+
+.quinta_parte .cajas .caja_2 button:hover {
+    background-color: #2849c6;
+    color: #fff;
+    box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1),
+        0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+
+.quinta_parte .cajas .caja_2 .caja_3 .icon {
+    background: rgba(232, 241, 252, 255);
+    padding: 10px;
+    color: #2f4fcd;
+    border-radius: 20%;
+    font-size: 140%;
+    border: transparent;
+    margin: 0% 6% 0% 0%;
+    border: 1px solid rgba(233, 237, 255, 255);
+    box-shadow: 0 -3em 3em rgba(0, 0, 0, 0.1),
+        0 0 0 2px rgb(255, 255, 255),
+        0.3em 0.3em 1em rgba(0, 0, 0, 17%);
+
+}
+
+
+
+
+/* ////////////////////////////////////////////////////
+////////////////   ultima_PARTE //  ////////////
+///////////////// ///////////////*/
+
+
+#ultima_parte {
+    background-color: rgba(239, 243, 254, 255);
+    display: flex;
+    padding: 3% 10% 1% 10%;
+    justify-content: space-between;
+    font-size: 120%;
+}
+
+.lista_vaccination p {
+    margin: 0%;
+    padding: 4% 63% 0% 0%;
+    font-size: 100%;
+}
+
+.lista_final {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.credits {
+    background-color: rgba(239, 243, 254, 255);
+    display: flex;
+    padding: 2% 10%;
+    justify-content: space-between;
+    font-size: 80%;
+}
